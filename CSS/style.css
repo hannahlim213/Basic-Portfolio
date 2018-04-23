@@ -1,0 +1,151 @@
+body{
+    background-color: #e8e4ed;
+    background-image: url(http://www.transparenttextures.com/patterns/blu-stripes.png);
+}
+.container{
+    width:495px;
+    margin:0 auto;
+    padding:15px 17px;
+    background-color:white;
+    float:left;
+    margin-left:50px;
+}
+hr{
+    background-color:gray;
+    height:1px;
+
+}
+#name{
+    position:absolute;
+    width:100px;
+    background-color:lightblue;
+}
+nav{
+    margin:10px;
+    background-color:white;
+    border-bottom:2px solid grey;
+}
+
+
+ul{
+    list-style-type:none;
+    margin:0;
+    
+    overflow:hidden;
+    font-family:arial;
+}
+
+li a{
+    display:block;
+    text-align:center;
+    float:right;
+    padding:15px 17px;
+    text-decoration:none;
+    color:gray;
+}
+
+li a:hover{
+    background-color:#333;
+}
+
+
+footer{
+    width:100%;
+    position:absolute;
+    bottom:-450px;
+    text-align:center;
+    background:lightblue;
+    padding: 5px;
+    border-top: 3px solid gray;
+}
+
+form{
+    padding:10px;
+    font-family:arial;
+    float:left;
+}
+
+label, input, textarea{
+    width:100%;
+    resize:vertical;
+}
+
+button{
+    background-color:lightskyblue;
+    font:white;
+    font-family: arial;
+    border:none;
+    padding:10px 15px;
+    text-decoration:none;
+    display:inline-block;
+    border-radius:2px;
+    margin-top:2px;
+}
+
+button:hover{
+    background-color:rgb(194, 224, 243);
+    transition-duration:.3s;
+}
+
+
+.box1 {
+    position: relative;
+    text-align:center;
+    color:white;
+    background-color:lightblue;
+
+}
+#textHome, #textTravel, #textLife, #textFood, #textIdeas{
+    position: absolute;
+    top: 188px;
+    left: 0px;
+    background-color: lightblue;
+    font-family: arial;
+    font-weight: 600;
+    border-radius: 0;
+    width: 242px;
+    font-size: 22px;
+    color: white;
+}
+
+#textIdeas{
+    position: relative;
+    top: 690px;
+    left: -252px;
+}
+
+img{
+    width:49%;
+    margin-top:10px;
+    float: left; 
+    padding-right:10px;
+    
+}
+
+.box2 {
+    position: absolute;
+    left:325px;
+    width:496px;
+}
+
+.box4{
+    position: absolute;
+    left: 325px;
+    bottom: -90px;
+}
+
+#lifeImg{
+
+    height:241px;
+    width:245px;
+}
+
+#travelImg{
+    width:242px;
+}
+
+#textFood{
+    position: absolute;
+    top: 601px;
+    left: 75px;
+}
