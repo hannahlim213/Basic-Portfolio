@@ -2,28 +2,36 @@ body{
     background-color: #e8e4ed;
     background-image: url(http://www.transparenttextures.com/patterns/blu-stripes.png);
 }
+
+
 .container{
     width:495px;
     margin:0 auto;
     padding:15px 17px;
     background-color:white;
     float:left;
-    margin-left:50px;
+    margin-left:40px;
 }
-hr{
-    background-color:gray;
-    height:1px;
 
-}
+
 #name{
-    position:absolute;
-    width:100px;
-    background-color:lightblue;
+    position: absolute;
+    left: 48px;
+    top: 7px;
+    padding: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: lightblue;
+    text-decoration: none;
+    color: gray;
+    font-size: 22px;
+    font-weight: bold;
 }
 nav{
-    margin:10px;
+    margin-bottom:10px;
     background-color:white;
-    border-bottom:2px solid grey;
+    border-bottom:3px solid grey;
+    height:49px;
 }
 
 
@@ -130,8 +138,8 @@ img{
 
 .box4{
     position: absolute;
-    left: 325px;
-    bottom: -90px;
+    left: 323px;
+    bottom: 211px;
 }
 
 #lifeImg{
@@ -147,5 +155,50 @@ img{
 #textFood{
     position: absolute;
     top: 601px;
-    left: 75px;
+    left: 65px;
+}
+
+@media screen and (max-width: 980px){
+    nav{
+        width:100%;
+        margin-top:-1px;
+    }
+}
+
+@media screen and (max-width:768px){
+    container{
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .box4{
+        bottom:126px;
+
+    }
+}
+
+@media screen and (max-width:640px){
+    #name{
+        position: relative;
+        top: -8px;
+        width: 546px;
+        left: 1px;
+        text-align: center;
+    }
+
+    .nav-options{
+        position:relative;
+        left:-178px;
+    }
+
+    ul{
+        margin:-6px;
+    }
+
+    nav{
+        position: relative;
+        top: 24px;
+        margin-bottom: 45px;
+        width: 628px;
+    }
 }
