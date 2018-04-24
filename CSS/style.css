@@ -26,6 +26,9 @@ body{
     color: gray;
     font-size: 22px;
     font-weight: bold;
+    margin:0;
+    overflow:hidden;
+    font-family:arial;
 }
 nav{
     margin-bottom:10px;
@@ -58,7 +61,7 @@ li a:hover{
 
 
 footer{
-    width:100%;
+    width:627px;
     position:absolute;
     bottom:-450px;
     text-align:center;
@@ -163,6 +166,15 @@ img{
         width:100%;
         margin-top:-1px;
     }
+    .box4{
+        position: absolute;
+        left: 323px;
+        bottom: 150px;
+    }
+
+    footer{
+        width:955px;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -172,18 +184,17 @@ img{
     }
 
     .box4{
-        bottom:126px;
+        bottom:108px;
 
     }
 }
 
 @media screen and (max-width:640px){
     #name{
-        position: relative;
-        top: -8px;
-        width: 546px;
-        left: 1px;
+        width: 665px;
         text-align: center;
+        padding-top: 6px;
+        left:8px;
     }
 
     .nav-options{
@@ -197,8 +208,18 @@ img{
 
     nav{
         position: relative;
-        top: 24px;
+        top: 49px;
         margin-bottom: 45px;
-        width: 628px;
+        width: 745px;
+    }
+
+    .box4{
+        bottom:79px;
+    }
+    footer{
+        width:734px;
+    }
+    #textFood{
+        top:649px;
     }
 }
